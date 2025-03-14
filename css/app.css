@@ -1,0 +1,60 @@
+.grid-container{
+
+   
+
+}
+
+
+.grid-x{
+
+    
+
+}
+
+.cell{
+
+    /* background: greenyellow; */
+
+}
+
+.test_01 p{
+
+    background: yellow;
+
+}
+
+.test_02_01{
+
+    background: palevioletred;
+    
+}
+
+.test_02_02{
+
+    background: red;
+    
+}
+
+.test_03_01{
+
+    background: orange;
+
+}
+
+.test_03_02{
+
+    background: olive;
+    
+}
+
+.test_03_03{
+
+    background: purple;
+    
+}
+
+.mv{
+
+    background: url(../img/mv_voice.jpg)  !important;
+    height: 53vw;
+}
