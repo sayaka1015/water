@@ -241,10 +241,39 @@ background-color: transparent !important;
 }
 
 
+.merit{
+    background-color: #C8EDFF;
+    border-radius: 50px;
+}
+
+
+
+
+.merit1__title:before{
+    content: "メリット";
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.merit1__title:after{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    border-left: 1px solid #7BBDE7;
+    width: 10px;
+    height: 251px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(0,-50%);
+}
 
 .merit1__title{
     padding-top: 89px;
     color: #7BBDE7;
+    font-size: 200px;
+    position: relative;
 }
 
 .merit1__img__1{
@@ -266,9 +295,33 @@ background-color: transparent !important;
     text-align: center;
 }
 
+.merit2__title:before{
+    content: "メリット";
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.merit2__title:after{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    border-left: 1px solid #7BBDE7;
+    width: 10px;
+    height: 251px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(0,-50%);
+}
+
+
+
 .merit2__title{
     padding-top: 117px;
     color: #7BBDE7;
+    font-size: 200px;
+    position: relative;
 }
 
 .merit2__img{
@@ -282,7 +335,32 @@ background-color: transparent !important;
 
 .merit3__title{
     color: #7BBDE7;
+    font-size: 200px;
+    position: relative;
+
 }
+
+.merit3__title:before{
+    content: "メリット";
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.merit3__title:after{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    border-left: 1px solid #7BBDE7;
+    width: 10px;
+    height: 251px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(0,-50%);
+}
+
+
 
 .merit3__txt{
 
