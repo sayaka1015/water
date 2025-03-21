@@ -6,6 +6,7 @@ background-color: transparent !important;
     border: none !important;
 }
 
+
 /* 共通 */
 .sec_ttl{
     text-align: center;
@@ -23,8 +24,28 @@ background-color: transparent !important;
     position: relative;
 }
 
+
+
+/* .top-bar { 
+    background-color: rgba(255, 255, 255, 0.5) !important; 
+    background-blend-mode: overlay !important;
+}
+    */
+  
+  /* .mv img {
+    width: 100%;
+    display: block;
+  } */
+
+
+
+.menu{
+    color: #fff ;
+}
+
+
 .mv .grid-x{
-    background: skyblue;
+    /* background: skyblue; */
     width: 73%;
     position: absolute;
     right: 80px;
@@ -46,7 +67,6 @@ background-color: transparent !important;
 }
 
 .disk .grid-x{
-    background-color: skyblue;
     padding-top: 74px;
 
 }
@@ -67,18 +87,44 @@ background-color: transparent !important;
     padding-top: 13px;
 }
 
+.disk .right{
+    /* background-color: palevioletred; */
+    padding-top: 40px;
+}
+
+.disk__server{
+    /* background-color: #7BBDE7; */
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.disk__server .grid-x{
+    width: 80%;
+}
+
+.server__txt{
+    display: flex;
+    align-items: end;
+    padding-left: 50px !important;
+}
+
 .cta_btn{
-    background-color: yellow;
+    /* background-color: yellow; */
     padding-top: 80px;
 }
 
 .chigai{
-    background: pink;
+    /* background: pink; */
     padding-top: 64px;
 }
 
+.chigai .grid-x{
+    /* background: skyblue; */
+ 
+}
+
 .merit{
-    background-color: yellow;
+    /* background-color: yellow; */
     padding-top: 193px;
 }
 
@@ -90,26 +136,210 @@ background-color: transparent !important;
 
 
 .life{
-    background-color: pink;
+    /* background-color: pink; */
     padding-top: 151px;
 }
 
+.life .life__txt1{
+    font-size: 48px;
+    color: #C9BE90;
+}
 
-.customer{
-    background-color: yellow;
-    padding-top: 226px;
+.life .life__txt2{
+    font-size: 48px !important;
+    color: #01BDBB !important;
+}
+
+.life .life__txt3{
+    font-size: 48px;
+    color: #EABAA7;
 }
 
 
+
+.customer{
+    /* background-color: yellow; */
+    padding-top: 226px;
+}
+
+.customer h2{
+    color: #01BDBB;
+}
+
+.customer .customer__txt{
+    text-align: left;
+    font-size: 30px;
+}
+
+.customer .customer__voice{
+    text-align: left;
+    padding-top: 18px;
+}
+
+
+.border-line {
+    width: 880px;
+    border: 1px solid #000; /* ボーダーのスタイルを指定 */
+    margin: 20px auto; /* 中央寄せと上下のマージン */
+  }
+
+
 .faq{
-    background-color: pink;
+    /* background-color: pink; */
     padding-top: 126px;
 }
 
 
 .insta{
-    background-color: yellow;
+    /* background-color: yellow; */
     padding-top: 78px;
 }
 
+.insta h2{
+        font-family: "Jacques Francois", sans-serif;
+}
+
+
+.cta_btn .tel{
+    border: 1px #659FF1 solid !important;
+    text-align: center;
+    background-color: #fff !important;
+
+}
+
+.cta_btn .contact{
+    border: 1px #659FF1 solid !important;
+    text-align: center;
+    background-color: #fff !important;
+}
+
+.cta_btn .callout{
+    margin: 0 0 1rem;
+    padding: 2rem ;
+}
+
+.chigai h2{
+    color: #fff;
+    background-color: #0087CC;
+    padding:10px 0;
+
+}
+
+.chigai img{
+    padding-top: 72px;
+}
+
+.tigai__txt2{
+    background-color: #E6F7FF;
+    padding:10px 0;
+    text-align: center;
+    color: #0087CC;
+}
+
+.tigai__txt1{
+    color: #0087CC;
+}
+
+
+
+.merit1__title{
+    padding-top: 89px;
+    color: #7BBDE7;
+}
+
+.merit1__img__1{
+    padding-top: 287px !important;
+}
+
+.merit1__txt{
+    color: #7BBDE7;
+}
+
+.merit1__graph{
+    text-align: center;
+    padding-top: 108px;
+    color: #7BBDE7;
+}
+
+.mirit1__graph__txt{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.merit2__title{
+    padding-top: 117px;
+    color: #7BBDE7;
+}
+
+.merit2__img{
+    padding-top: 253px !important;
+}
+
+.merit2__txt{
+    padding-top: 104px;
+    color: #7BBDE7;
+}
+
+.merit3__title{
+    color: #7BBDE7;
+}
+
+.merit3__txt{
+
+    color: #7BBDE7;
+}
+
+.life_ttl_sub{
+    text-align: center;
+}
+
+
+.customer p{
+    text-align: center;
+}
+
+
+.faq p{
+    text-align: center;
+}
+
+.faq p{
+    color: #000;
+}
+
+.faq a{
+    color: #000;
+}
+
+.callout.secondary {
+    background-color: #7796AA !important;
+    width: 100% !important;
+}
+
+.callout.secondary a{
+    color: #fff
+}
+
+
+.insta h2{
+    text-align: center;
+    color: #000;
+}
+
+.insta p{
+    text-align: center;
+    color: #000;
+}
+
+.button-container {
+    text-align: center;
+    
+  }
+
+  .button {
+    /* その他のボタンのスタイル */
+    background-color: white !important;
+    border: 1px #000 solid !important;
+    width: 200px;
+  }
 
