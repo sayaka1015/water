@@ -11,6 +11,8 @@ background-color: transparent !important;
 .sec_ttl{
     text-align: center;
     color: #7BBDE7;
+    font-family: "Zen Old Mincho", serif !important;
+
 }
 
 
@@ -40,7 +42,9 @@ background-color: transparent !important;
 
 
 .menu{
-    color: #fff ;
+    /* color: #fff ; */
+        /* background-color: rgba(255, 255, 255, 0.5) ;  */
+      
 }
 
 
@@ -59,6 +63,18 @@ background-color: transparent !important;
     background: #fff;
 }
 
+.mv_title{
+    color: #78BAE2;
+    font-size: 42px;
+    font-family: "Zen Old Mincho", serif;
+
+}
+
+.mv p{
+    font-family: "Zen Old Mincho", serif;
+
+}
+
 
 .disk{
     background: url(../img/desk_back.jpg)  !important;
@@ -74,17 +90,23 @@ background-color: transparent !important;
 .disk h3{
     color: #7BBDE7;
     font-size: 36px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .disk h4{
     color: #000;
     font-size: 24px;
     padding-top: 31px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .disk p{
     font-size: 18px;
     padding-top: 13px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .disk .right{
@@ -111,6 +133,13 @@ background-color: transparent !important;
 .cta_btn{
     /* background-color: yellow; */
     padding-top: 80px;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 32px;
+}
+
+.cta_btn p{
+
+    color: #659FF1;
 }
 
 .chigai{
@@ -132,6 +161,7 @@ background-color: transparent !important;
 
 .merit h2 {
     font-size: 48px;
+
 }
 
 
@@ -155,6 +185,19 @@ background-color: transparent !important;
     color: #EABAA7;
 }
 
+.life h2{
+    font-size: 64px;
+}
+
+.life p{
+    font-size: 27px;
+    font-family: "Zen Old Mincho", serif;
+
+}
+
+.life__desk {
+    font-size: 24px !important;
+}
 
 
 .customer{
@@ -164,6 +207,13 @@ background-color: transparent !important;
 
 .customer h2{
     color: #01BDBB;
+    font-size: 64px;
+}
+
+.customer p{
+    font-size: 27px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .customer .customer__txt{
@@ -174,6 +224,7 @@ background-color: transparent !important;
 .customer .customer__voice{
     text-align: left;
     padding-top: 18px;
+    font-size: 20px;
 }
 
 
@@ -222,7 +273,7 @@ background-color: transparent !important;
     color: #fff;
     background-color: #0087CC;
     padding:10px 0;
-
+    font-family: "";
 }
 
 .chigai img{
@@ -283,17 +334,23 @@ background-color: transparent !important;
 
 .merit1__txt{
     color: #7BBDE7;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 36px;
 }
 
 .merit1__graph{
     text-align: center;
     padding-top: 108px;
     color: #7BBDE7;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .mirit1__graph__txt{
     padding-top: 25px;
     text-align: center;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 24px;
 }
 
 .graph__img{
@@ -344,6 +401,9 @@ background-color: transparent !important;
 .merit2__txt{
     padding-top: 104px;
     color: #7BBDE7;
+    font-size: 36px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .merit3__title{
@@ -378,6 +438,9 @@ background-color: transparent !important;
 .merit3__txt{
 
     color: #7BBDE7;
+    font-size: 36px;
+    font-family: "Zen Old Mincho", serif;
+
 }
 
 .life_ttl_sub{
@@ -414,6 +477,7 @@ background-color: #BBDCDC;
 background-color: #F0D6CB;
 }
 
+
 .customer p{
     text-align: center;
 }
@@ -425,11 +489,28 @@ background-color: #F0D6CB;
 
 .faq p{
     color: #000;
+    font-size: 27px;
+    font-family: "Zen Old Mincho", serif !important;
+
+}
+
+.faq .faq_sub {
+    font-size: 27px !important;
+    font-family: "Zen Old Mincho", serif !important;
+
 }
 
 .faq a{
     color: #000;
+    font-family: "Zen Old Mincho", serif !important;
+    font-size: 27px;
+
 }
+
+.faq h2{
+    font-size: 64px;
+}
+
 
 .callout.secondary {
     background-color: #7796AA !important;
@@ -439,6 +520,7 @@ background-color: #F0D6CB;
 .callout.secondary a{
     color: #fff
 }
+
 
 
 .insta h2{
@@ -469,3 +551,8 @@ background-color: #F0D6CB;
     font-style: normal;
   } */
   
+
+  .customer{
+    background-color: #A1E0FF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
