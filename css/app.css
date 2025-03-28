@@ -251,8 +251,9 @@ position: relative;
 
 
 .customer{
-    /* background-color: yellow; */
     padding-top: 226px;
+    background: #F8FCFF;
+    
 }
 
 .customer h2{
@@ -592,7 +593,7 @@ background-color: #F0D6CB;
 }
 
 .callout.secondary a{
-    color: #fff
+    color: #fff !important;
 }
 
 
@@ -626,10 +627,6 @@ background-color: #F0D6CB;
   } */
   
 
-  .customer{
-    background-color: #A1E0FF;
-    box-shadow: 0px 4px 4px 0px #00000040;
-  }
 
   /* スワイパー */
   .swiper-slide img {
