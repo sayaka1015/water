@@ -15,6 +15,10 @@ background-color: transparent !important;
 
 }
 
+a{
+    color: inherit !important;
+}
+
 
 .mv{
 
@@ -28,24 +32,19 @@ background-color: transparent !important;
 
 
 
-/* .top-bar { 
-    background-color: rgba(255, 255, 255, 0.5) !important; 
-    background-blend-mode: overlay !important;
+ .top-bar { 
+    background-color: rgba(1, 1, 1, 0.09) !important;
 }
-    */
-  
-  /* .mv img {
-    width: 100%;
-    display: block;
-  } */
 
-
-
-.menu{
-    /* color: #fff ; */
-        /* background-color: rgba(255, 255, 255, 0.5) ;  */
-      
+.top-bar ul{
+    background: none !important;
 }
+
+.top-bar-right .menu{
+    color: #fff !important;
+    font-weight: bold;
+}
+
 
 
 .mv .grid-x{
@@ -67,11 +66,13 @@ background-color: transparent !important;
     color: #78BAE2;
     font-size: 42px;
     font-family: "Zen Old Mincho", serif;
+    display: inline-block;
 
 }
 
 .mv_subtitle{
     font-size: 24px;
+    display: inline-block;
 }
 
 .mv p{
@@ -144,7 +145,30 @@ background-color: transparent !important;
 .cta_btn p{
 
     color: #659FF1;
+    background: pink;
+    display: inline-block;
+    padding-left: 45px;
+    background-size: 30px;
+    background-position: left center ;
+
 }
+
+.tel p{
+    background: red;
+    background: url(../img/ico_tell.png)no-repeat;
+    background-size: 30px;
+    background-position: left center ;
+
+}
+
+.contact p{
+    background: red;
+    background: url(../img/ico_link.png)no-repeat;
+    background-size: 30px;
+    background-position: left center ;
+
+}
+
 
 .chigai{
     /* background: pink; */
@@ -154,6 +178,13 @@ background-color: transparent !important;
 .chigai .grid-x{
     /* background: skyblue; */
  
+}
+
+.chigai__txt{
+    background: pink;
+    display: flex;
+    align-items: center;
+    
 }
 
 .merit{
