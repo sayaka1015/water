@@ -171,27 +171,36 @@ a{
 
 
 .chigai{
-    /* background: pink; */
     padding-top: 64px;
+    background-color:#F8FCFF;
+
 }
 
-.chigai .grid-x{
-    /* background: skyblue; */
- 
-}
 
 .chigai__txt{
     background: pink;
     display: flex;
     align-items: center;
-    
+
 }
 
 .merit{
-    /* background-color: yellow; */
     padding-top: 193px;
+    border-radius: 50px;
+position: relative;
 }
 
+.merit1:after{
+    content: "";
+    background: #F8FCFF;
+    top: 346px;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}
 
 
 .merit h2 {
@@ -333,10 +342,6 @@ a{
 }
 
 
-.merit{
-    background-color: #C8EDFF;
-    border-radius: 50px;
-}
 
 
 
