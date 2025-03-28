@@ -12,7 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-
+<!-- スワイパー -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
     <div class="grid-x grid-padding-x">
       <div class="large-7 medium-4 small-4 cell">
         <div class="primary callout">
-          <p>今話題の浄水型だから無料設置後すぐに使える</p>
+          <p class="mv_subtitle">今話題の浄水型だから無料設置後すぐに使える</p>
           <p class="mv_title">Y・S Advance</p>
           <p class="mv_title">WATAR SERVER</p>
         </div>
@@ -70,7 +72,9 @@
 
 
   <!-- ここからメイン -->
-  <div class="main grid-container">
+
+  <div class="grid-container full">
+
     <section class="disk">
       <h2 class="sec_ttl">浄水型ウォーターサーバーとは？</h2>
       <div class="grid-x grid-padding-x cta">
@@ -103,6 +107,12 @@
         </div>
       </div>
     </section>
+
+    </div>
+
+
+    <div class="grid-container">
+
 
     <div class="grid-x grid-padding-x cta cta_btn">
       <div class="large-6 medium-6 cell">
@@ -229,7 +239,45 @@
             </div>
           </div>
         </div>
-        <!-- スライダーは後回し -->
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                   src="img/sw01.jpg"
+                   alt=""
+                   />
+            </div>
+            <div class="swiper-slide">
+              <img
+                   src="img/sw02.jpg"
+                   alt=""
+                   />
+            </div>
+            <div class="swiper-slide">
+              <img
+                   src="img/sw03.jpg"
+                   alt=""
+                   />
+            </div><div class="swiper-slide">
+              <img
+                   src="img/sw04.jpg"
+                   alt=""
+                   />
+            </div><div class="swiper-slide">
+              <img
+                   src="img/sw01.jpg"
+                   alt=""
+                   />
+            </div><div class="swiper-slide">
+              <img
+                   src="img/sw02.jpg"
+                   alt=""
+                   />
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="merit3">
         <div class="grid-x grid-padding-x">
@@ -252,48 +300,52 @@
     <section class="life">
       <h2 class="sec_ttl">Life style image</h2>
       <p class="life_ttl_sub">こんな方におすすめです！</p>
-      <div class="grid-x grid-padding-x">
-        <div class="large-6 medium-6 cell">
+
+      <div class="grid-x grid-padding-x life__item">
+        <div class="large-6 medium-6 cell life__img">
           <div class="primary callout life__img">
             <img src="img/life01.png" alt="">
           </div>
         </div>
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p class="life__txt1">MODEL 1</p>
+        <div class="large-6 medium-6 cell life__txt">
+          <div class="primary callout1">
+            <p class="life__txt1 life__ttl">MODEL 1</p>
             <p class="life__desk">共働きで<br>
               毎日が忙しい方</p>
           </div>
         </div>
       </div>
-      <div class="grid-x grid-padding-x">
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p class="life__txt2">MODEL 2</p>
+
+      <div class="grid-x grid-padding-x life__item">
+        <div class="large-6 medium-6 cell life__txt">
+          <div class="primary callout2">
+            <p class="life__txt2 life__ttl">MODEL 2</p>
             <p class="life__desk">自宅で過ごす時間を<br>
               充実させたい方</p>
           </div>
         </div>
-        <div class="large-6 medium-6 cell">
+        <div class="large-6 medium-6 cell life__item">
           <div class="primary callout life__img">
             <img src="img/life02.png" alt="">
           </div>
         </div>
       </div>
-      <div class="grid-x grid-padding-x">
+
+      <div class="grid-x grid-padding-x life__item">
         <div class="large-6 medium-6 cell">
           <div class="primary callout life__img">
             <img src="img/life03.png" alt="">
           </div>
         </div>
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p class="life__txt3">MODEL 3</p>
+        <div class="large-6 medium-6 cell life__txt">
+          <div class="primary callout3">
+            <p class="life__txt3 life__ttl">MODEL 3</p>
             <p class="life__desk">美容と健康を<br>
               両立させたい方</p>
           </div>
         </div>
       </div>
+
     </section>
 
     <section class="customer">
@@ -494,9 +546,10 @@
         </div>
       </div>
     </div>
-  </div> -->
+   -->
   <!-- ここまでメイン -->
 
+    </div>
 
     
       <div class="callout large secondary">
@@ -523,12 +576,52 @@
         </div>
       </div>
       
+      <!-- スワイパーテスト -->
+      <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog01.jpg"
+                 alt=""
+                 />
+          </div>
+          <div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog02.jpg"
+                 alt=""
+                 />
+          </div>
+          <div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog03.jpg"
+                 alt=""
+                 />
+          </div><div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog03.jpg"
+                 alt=""
+                 />
+          </div><div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog03.jpg"
+                 alt=""
+                 />
+          </div><div class="swiper-slide">
+            <img
+                 src="https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog03.jpg"
+                 alt=""
+                 />
+          </div>
+        </div>
+      </div> -->
 
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>
   <script src="js/app.js"></script>
+  <!-- スワイパー -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
