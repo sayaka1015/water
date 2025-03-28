@@ -154,7 +154,7 @@ a{
 }
 
 .tel p{
-    background: red;
+    /* background: red; */
     background: url(../img/ico_tell.png)no-repeat;
     background-size: 30px;
     background-position: left center ;
@@ -162,7 +162,7 @@ a{
 }
 
 .contact p{
-    background: red;
+    /* background: red; */
     background: url(../img/ico_link.png)no-repeat;
     background-size: 30px;
     background-position: left center ;
@@ -216,7 +216,7 @@ position: relative;
 
 .life .life__txt1{
     font-size: 48px;
-    color: #C9BE90;
+    color: #C9BE90; 
 
 }
 
@@ -236,7 +236,7 @@ position: relative;
 
 .life p{
     font-size: 27px;
-    font-family: "Zen Old Mincho", serif;
+    /* font-family: "Zen Old Mincho", serif; */
 
 }
 
@@ -253,6 +253,7 @@ position: relative;
 .customer{
     padding-top: 226px;
     background: #F8FCFF;
+    
     
 }
 
@@ -558,6 +559,7 @@ background-color: #F0D6CB;
 }
 
 
+
 .faq p{
     text-align: center;
 }
@@ -618,6 +620,7 @@ background-color: #F0D6CB;
     background-color: white !important;
     border: 1px #000 solid !important;
     width: 200px;
+    font-weight: bold;
   }
 
   /* .zen-old-mincho-regular {
@@ -634,12 +637,13 @@ background-color: #F0D6CB;
     width: 100%;
   }
 
+  .accordion{
+    padding-top: 44px;
+  }
 
 
 
 
 
 
-  /* .primary.callout2 {
-    background: pink;
-} */
+
