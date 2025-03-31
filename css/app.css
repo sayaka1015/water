@@ -173,7 +173,6 @@ a{
 .chigai{
     padding-top: 64px;
     background-color:#F8FCFF;
-
 }
 
 
@@ -193,7 +192,7 @@ position: relative;
 .merit1:after{
     content: "";
     background: #F8FCFF;
-    top: 346px;
+    top: 440px;
     left: 0%;
     position: absolute;
     width: 100%;
