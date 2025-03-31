@@ -177,10 +177,44 @@ a{
 
 
 .chigai__txt{
-    background: pink;
+    background: #fff;
     display: flex;
     align-items: center;
 
+}
+
+.large-12 .medium-6 .cell .chigai__txt{
+    position: relative; /* 相対位置指定 */
+  width: 300px; /* コンテナの幅 */
+  height: 200px; /* コンテナの高さ */
+}
+
+img.chigai_img_02 {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    width: 153px;
+    height: 200px;
+}
+
+.large-12.medium-6.cell.chigai__txt {
+    position: relative;
+    top: 72px;
+}
+
+.tigai__txt1 {
+    color: #0087CC;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tigai__txt2 {
+    background-color: #E6F7FF;
+    padding: 10px 0;
+    text-align: center;
+    color: #0087CC;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .merit{
