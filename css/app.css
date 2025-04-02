@@ -360,8 +360,19 @@ img.chigai_img_02 {
     /* background-color: pink; */
     padding-top: 126px;
 }
-
-
+.qa-title{
+    width: fit-content;
+}
+.ao{
+    width: 70px;
+    height: 70px;
+    background-color: #79CFCF;
+    color: #fff!important;
+    margin-bottom: 0;
+}
+.accordion-title{
+    padding: 0!important;
+}
 .insta {
     /* background-color: yellow; */
     padding-top: 78px;
@@ -601,15 +612,13 @@ img.chigai_img_02 {
 }
 
 .life .grid-x:nth-of-type(1) {
-    background-color: #D3CAA3;
-}
+    background-color: rgba(211, 202, 163, 0.15);}
 
 .life .grid-x:nth-of-type(2) {
-    background-color: #BBDCDC;
-}
+    background-color: rgba(187, 220, 220, 0.15);}
 
 .life .grid-x:nth-of-type(3) {
-    background-color: #F0D6CB;
+    background-color: rgba(240, 214, 203, 0.15);
 }
 
 
@@ -620,7 +629,7 @@ img.chigai_img_02 {
 
 
 
-.faq p {
+.faq_sub {
     text-align: center;
 }
 
@@ -693,7 +702,7 @@ img.chigai_img_02 {
 ul.accordion {
     width: 100%;
     padding: 10px;
-    background-color: #79CFCF;
+    /* background-color: #79CFCF; */
     border: none;
     text-align: left;
     cursor: pointer;
