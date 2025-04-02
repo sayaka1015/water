@@ -671,7 +671,6 @@ img.chigai_img_02 {
 
 .callout.primary {
     background-color: #def0fc;
-    padding: 0;
 }
 
 
@@ -736,12 +735,6 @@ p.voice__txt{
     font-size: 21px;
 }
 
-.voice {
-    background: url(../img/desk_back.jpg) !important;
-    padding-top: 25px;
-
-}
-
 
 .grid-x:first-child{
     padding-top: 166px !important;
@@ -752,3 +745,9 @@ img.voice_icn {
     width: 81px;
     height: 85px;
 }  
+
+
+body {
+    background: url(../img/desk_back.jpg) !important;
+
+}
