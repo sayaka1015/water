@@ -738,6 +738,7 @@ p.voice__txt{
 
 .voice {
     background: url(../img/desk_back.jpg) !important;
+    padding-top: 25px;
 
 }
 
