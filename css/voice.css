@@ -6,6 +6,26 @@
     border: none !important;
 }
 
+.mv .callout.primary {
+    background: #def0fc;
+    display: block;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    bottom: -20px;
+    margin: 0;
+    right: 62px;
+}
+
+.mv__ttl {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 130px;
+    color: #fff;
+}
+
 
 /* 共通 */
 .sec_ttl {
