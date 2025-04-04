@@ -7,6 +7,7 @@
 }
 
 .mv .callout.primary {
+
     background: #def0fc;
     display: block;
     width: 148px;
@@ -15,17 +16,33 @@
     bottom: -20px;
     margin: 0;
     right: 62px;
+
 }
 
 .mv__ttl {
+
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 130px;
     color: #fff;
+
 }
 
+.mv__ttl .ttl_sub{
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 36px;
+
+}
+
+.mv__ttl p{
+
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-size: 48px;
+ 
+}
 
 /* 共通 */
 .sec_ttl {
