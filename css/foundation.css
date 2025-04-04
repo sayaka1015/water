@@ -4328,6 +4328,7 @@ select:not([multiple]) {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: fit-content;
 }
 [data-whatinput=mouse] .menu li {
   outline: 0;
@@ -6608,7 +6609,7 @@ a.thumbnail image {
   padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: fixed;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-pack: justify;
@@ -6617,6 +6618,9 @@ a.thumbnail image {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          position: fixed;
+          width: 100%;
+          z-index: 999;
 }
 .top-bar,
 .top-bar ul {
@@ -6644,6 +6648,8 @@ a.thumbnail image {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   max-width: 100%;
+  width: fit-content;
+  padding-right: 2em;
 }
 
 @media print, screen and (min-width: 40em) {
