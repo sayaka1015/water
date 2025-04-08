@@ -594,6 +594,30 @@ img.chigai_img_02 {
     justify-content: end;
 }
 
+.merit2__title span{
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    margin-right: 30px;
+
+}
+
+.merit3__title span:after {
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    border-left: 1px solid #7BBDE7;
+    width: 10px;
+    height: 251px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(0, -50%);
+}
+
+
+
+
 .merit_af{
     padding-bottom: 60px;
 }
