@@ -8,6 +8,12 @@
 
 
 /* 共通 */
+body{
+
+    font-family: "Zen Old Mincho", serif !important;
+
+}
+
 .sec_ttl {
     text-align: center;
     color: #7BBDE7;
@@ -488,7 +494,7 @@ img.chigai_img_02 {
 
 
 .merit1__title:before {
-    content: "メリット";
+    content: "";
     display: block;
     font-size: 14px;
     margin-bottom: 12px;
@@ -876,3 +882,48 @@ ul.accordion {
     border: 1px solid #7BBDE7;
 
 }
+
+#merit01{
+    color: #7BBDE7;
+}
+.merit-ttl{
+    padding-left:1em;
+    border-left: solid 1px #7BBDE7;
+}
+
+.merit-ttl h3{
+    font-size: 30px;
+
+}
+
+.merit-ttl h2{
+    font-size: 300px;
+}
+
+.blue_bg::before {
+    content: "";
+        display: block;
+        position: absolute;
+        left: 10%;
+        width: calc(80%);
+        height: calc(100% - 0px);
+        background: rgba(200, 237, 255, 0.15);
+        transition: 1.2s;
+        opacity: 0;
+        transform: translateX(-80px);
+        opacity: 1;
+        transform: translateX(0);
+        z-index: -1;
+    }
+
+    .merit_txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 36px;
+    }
+
+/* .blue_bg:nth-child(2n){
+        flex-wrap: wrap-reverse;
+
+    } */
