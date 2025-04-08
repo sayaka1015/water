@@ -12,7 +12,7 @@
     text-align: center;
     color: #7BBDE7;
     font-family: "Zen Old Mincho", serif !important;
-
+    padding-bottom: 110px;
 }
 
 a {
@@ -304,6 +304,8 @@ img.chigai_img_02 {
 
 
 
+
+
 .primary.callout.merit1__img {
     height: auto;
     width: 725px;
@@ -367,14 +369,18 @@ img.chigai_img_02 {
 
 
 .customer {
-    padding-top: 226px;
+    /* padding-top: 226px; */
     background: #F8FCFF;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+
+
+
 .customer h2 {
     color: #01BDBB;
     font-size: 64px;
+    padding-top: 100px;
 }
 
 .customer p {
