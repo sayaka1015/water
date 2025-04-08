@@ -57,7 +57,7 @@ h2{
 
 .mv .grid-x {
     /* background: skyblue; */
-    width: 73%;
+    width: 90%;
     position: absolute;
     right: 80px;
     bottom: -200px;
@@ -98,17 +98,18 @@ height: 148px;
     position: fixed;
     width: 148px;
     bottom: 10em;
+    z-index: 100;
 }
 
-.server_img{
+/* .server_img{
     left: -60%;
 
-}
+} */
 
 
 .disk {
     background: url(../img/desk_back.jpg) !important;
-    padding-top: 193px;
+    padding-top: 220px;
     padding-bottom: 202px;
 
 }
@@ -280,6 +281,15 @@ img.chigai_img_02 {
     position: relative;
 }
 
+.merit1 {
+    padding: 0 10%;
+    margin-top: 300px;
+}
+
+.primary.callout.merit1__img {
+    padding-left: 77px;
+}
+
 .merit1::before {
     content: "";
     background: #F8FCFF;
@@ -292,38 +302,15 @@ img.chigai_img_02 {
     z-index: -1;
 }
 
-.primary.callout.merit1__img__1 {
-    height: auto;
-    width: 725px;
-    position: relative;
-    right: -50%;
-}
 
-.primary.callout.merit1__img__2 {
-    height: auto;
-    width: 725px;
-    position: relative;
-    left: -50%;
-    /* text-align: center;
-    line-height: 200px; */
 
-}
-
-.primary.callout.merit1__img__3 {
-    height: auto;
-    width: 725px;
-    position: relative;
-    right: -50%;
-
-}
-
-.primary.callout.merit1__img__4 {
+.primary.callout.merit1__img {
     height: auto;
     width: 725px;
     position: relative;
     left: -50%;
 
-}
+} 
 
 .txt_center{
     display: flex;
@@ -575,7 +562,15 @@ img.chigai_img_02 {
     transform: translate(0, -50%);
 } */
 
-.merit2__title:after {
+.merit2__title span{
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    margin-right: 30px;
+
+}
+
+.merit2__title span:after {
     content: "";
     display: block;
     margin-bottom: 12px;
@@ -584,7 +579,8 @@ img.chigai_img_02 {
     height: 251px;
     position: absolute;
     top: 50%;
-    left: 276px;
+    right: 0;
+    /* left: 276px; */
     transform: translate(0, -50%);
 }
 
@@ -594,6 +590,8 @@ img.chigai_img_02 {
     font-size: 200px;
     position: relative;
     font-family: "Zen Old Mincho", serif;
+    display: flex;
+    justify-content: end;
 }
 
 .merit_af{
@@ -609,7 +607,7 @@ img.chigai_img_02 {
     height: 425px;
     width: 725px;
     position: relative;
-    left: -50%;
+    left: -30%;
 }
 
 /* .merit2__img {
@@ -629,9 +627,6 @@ img.chigai_img_02 {
 
 }
 
-h3.merit2__title {
-    right: -835px;
-}
 
 .merit3__title {
     color: #7BBDE7;
