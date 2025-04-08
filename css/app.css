@@ -21,6 +21,7 @@ a {
 
 h2{
     font-size: 64px;
+    padding-bottom: 45px;
 }
 
 
@@ -371,7 +372,7 @@ img.chigai_img_02 {
 .customer {
     /* padding-top: 226px; */
     background: #F8FCFF;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
 }
 
 
