@@ -18,7 +18,7 @@ body{
     text-align: center;
     color: #7BBDE7;
     font-family: "Zen Old Mincho", serif !important;
-    padding-bottom: 110px;
+    /* padding-bottom: 110px; */
 }
 
 a {
@@ -378,6 +378,7 @@ img.chigai_img_02 {
 .customer {
     /* padding-top: 226px; */
     background: #F8FCFF;
+    margin-top: 100px;
     /* box-shadow: 0px 4px 4px 0px #00000040; */
 }
 
@@ -913,6 +914,19 @@ ul.accordion {
 .merit-ttl h2{
     font-size: 300px;
     line-height: 1;
+    position: relative;
+}
+
+.merit3 h2{
+    color: #7BBDE7;
+
+}
+
+.merit-ttl h2::before {
+    content: "メリット";
+    font-size: 30px;
+    position: absolute;
+    top: -30px;
 }
 
 .blue_bg::before {
