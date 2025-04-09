@@ -430,7 +430,9 @@ img.chigai_img_02 {
     background-color: #79CFCF;
     color: #fff!important;
     margin-bottom: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -544,6 +546,7 @@ img.chigai_img_02 {
     text-align: center;
     font-family: "Zen Old Mincho", serif;
     font-size: 24px;
+    color: #000;
 }
 
 .graph__img {
@@ -552,6 +555,9 @@ img.chigai_img_02 {
     padding: 0 300px;
 }
 
+.merit2 {
+    background: #F8FCFF;
+}
 
 
 
@@ -891,6 +897,14 @@ ul.accordion {
     border-left: solid 1px #7BBDE7;
 }
 
+#merit02 .merit-ttl{
+    padding-left:1em;
+    border-right: solid 1px #7BBDE7;
+    border-left: none ;
+    text-align: right;
+}
+
+
 .merit-ttl h3{
     font-size: 30px;
 
@@ -898,6 +912,7 @@ ul.accordion {
 
 .merit-ttl h2{
     font-size: 300px;
+    line-height: 1;
 }
 
 .blue_bg::before {
@@ -921,6 +936,11 @@ ul.accordion {
         align-items: center;
         justify-content: center;
         font-size: 36px;
+    }
+
+    #merit02{
+        color: #7BBDE7;
+        
     }
 
 /* .blue_bg:nth-child(2n){
