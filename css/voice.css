@@ -774,10 +774,6 @@ p.voice__txt{
 }
 
 
-.grid-x:first-child{
-    padding-top: 166px !important;
- 
-}
 
 img.voice_icn {
     width: 81px;
@@ -788,4 +784,8 @@ img.voice_icn {
 body {
     background: url(../img/desk_back.jpg) !important;
 
+}
+
+.voice_top{
+    margin-top: 166px;
 }
