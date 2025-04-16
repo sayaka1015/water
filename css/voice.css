@@ -426,12 +426,9 @@ img.chigai_img_02 {
     padding: 2rem;
 }
 
-.cta_btn{
-    padding-top: 138px;
-}
-
-.button-container{
-    padding-bottom: 138px;
+.cta_btn {
+    padding-top: 260px;
+    padding-bottom: 160px;
 }
 
 .chigai h2 {
@@ -789,3 +786,21 @@ body {
 .voice_top{
     margin-top: 166px;
 }
+
+.voice_top_img{
+
+    padding-top: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
