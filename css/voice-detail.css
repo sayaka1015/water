@@ -792,3 +792,30 @@ body {
     padding-top: 180px !important;
 
 }
+
+.kazoku__list {
+    background: blue;
+    position: relative;
+}
+
+
+
+
+li.kazoku__item {
+    background-color: red;
+    padding-left: 155px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+li.kazoku__item::before {
+    content: "aa";
+    display: block;
+    background: url(../img/voice_ico-01.png) no-repeat top left /contain;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    left: 0;
+    transform: translate(0,-50%);
+    top: 50%;
+}

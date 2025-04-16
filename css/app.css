@@ -31,6 +31,8 @@ h2{
 }
 
 
+
+
 .mv {
 
     background: url(../img/mv_pc.jpg) !important;
@@ -309,6 +311,13 @@ img.chigai_img_02 {
     z-index: -1;
 }
 
+.merit_01_ttl{
+    padding-top: 247px;
+    padding-bottom: 128px;
+    text-align: center;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 48px;
+}
 
 
 
@@ -892,6 +901,7 @@ ul.accordion {
 
 #merit01{
     color: #7BBDE7;
+    position: relative;
 }
 .merit-ttl{
     padding-left:1em;
@@ -935,7 +945,7 @@ ul.accordion {
         position: absolute;
         left: 10%;
         width: calc(80%);
-        height: calc(100% - 0px);
+        height: calc(100% - 415px);
         background: rgba(200, 237, 255, 0.15);
         transition: 1.2s;
         opacity: 0;
@@ -943,6 +953,7 @@ ul.accordion {
         opacity: 1;
         transform: translateX(0);
         z-index: -1;
+        top: 472px;
     }
 
     .merit_txt{
