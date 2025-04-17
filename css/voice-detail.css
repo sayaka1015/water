@@ -1,4 +1,4 @@
-.callout.primary {
+/* .callout.primary {
     background-color: transparent !important;
 }
 
@@ -45,7 +45,7 @@
 }
 
 /* 共通 */
-.sec_ttl {
+/* .sec_ttl {
     text-align: center;
     color: #7BBDE7;
     font-family: "Zen Old Mincho", serif !important;
@@ -86,7 +86,7 @@ a {
 
 .mv .grid-x {
     /* background: skyblue; */
-    width: 73%;
+    /* width: 73%;
     position: absolute;
     right: 80px;
     bottom: -200px;
@@ -97,9 +97,9 @@ a {
 
 .mv .primary p {
     background: #fff;
-}
+} */
 
-.mv_title {
+/* .mv_title {
     color: #78BAE2;
     font-size: 42px;
     font-family: "Zen Old Mincho", serif;
@@ -153,12 +153,11 @@ a {
 }
 
 .disk .right {
-    /* background-color: palevioletred; */
+    /* background-color: palevioletred; 
     padding-top: 40px;
-}
+} */
 
-.disk__server {
-    /* background-color: #7BBDE7; */
+/* .disk__server {
     margin-top: 20px;
     padding-left: 20px;
 }
@@ -174,7 +173,6 @@ a {
 }
 
 .cta_btn {
-    /* background-color: yellow; */
     padding-top: 80px;
     font-family: "Zen Old Mincho", serif;
     font-size: 32px;
@@ -190,10 +188,9 @@ a {
     background-size: 30px;
     background-position: left center;
 
-}
+} */
 
-.tel p {
-    /* background: red; */
+/* .tel p {
     background: url(../img/ico_tell.png)no-repeat;
     background-size: 30px;
     background-position: left center;
@@ -201,7 +198,6 @@ a {
 }
 
 .contact p {
-    /* background: red; */
     background: url(../img/ico_link.png)no-repeat;
     background-size: 30px;
     background-position: left center;
@@ -224,7 +220,6 @@ a {
 
 .chigai__box {
     position: relative;
-    /* padding-bottom: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,15 +243,12 @@ a {
     right: 0;
     bottom: 21px;
     background: url(../img/chigai_img.png) top center/contain;
-}
+} */
 
-.large-12 .medium-6 .cell .chigai__txt {
+/* .large-12 .medium-6 .cell .chigai__txt {
     position: relative;
-    /* 相対位置指定 */
     width: 300px;
-    /* コンテナの幅 */
     height: 200px;
-    /* コンテナの高さ */
 }
 
 img.chigai_img_02 {
@@ -309,11 +301,10 @@ img.chigai_img_02 {
 .merit h2 {
     font-size: 48px;
 
-}
+} */
 
 
-.life {
-    /* background-color: pink; */
+/* .life {
     padding-top: 151px;
 }
 
@@ -339,18 +330,13 @@ img.chigai_img_02 {
 
 .life p {
     font-size: 27px;
-    /* font-family: "Zen Old Mincho", serif; */
 
 }
 
 .life__desk {
     font-size: 24px !important;
-}
+} 
 
-/* .primary .callout1{
-    position: relative;
-
-} */
 
 
 .customer {
@@ -381,25 +367,21 @@ img.chigai_img_02 {
     padding-top: 18px;
     font-size: 20px;
 }
+ */
 
-
-.border-line {
+/* .border-line {
     width: 880px;
     border: 1px solid #000;
-    /* ボーダーのスタイルを指定 */
     margin: 20px auto;
-    /* 中央寄せと上下のマージン */
 }
 
 
 .faq {
-    /* background-color: pink; */
     padding-top: 126px;
 }
 
 
 .insta {
-    /* background-color: yellow; */
     padding-top: 78px;
 }
 
@@ -607,15 +589,11 @@ img.chigai_img_02 {
 .life .grid-x {
     border-radius: 50px;
     box-shadow: 0px 4px 4px 0px #00000040;
-    margin-top: 45px;
-}
+    margin-top: 45px; */
 
-/* .life .grid-x:not(:first-child){
-    margin-top: 45px;
-} */
 
-/* life */
-.life {}
+
+/* .life {}
 
 .life__desk {
     border-left: 1px #000 solid;
@@ -722,10 +700,9 @@ img.chigai_img_02 {
 .button-container {
     text-align: center;
 
-}
+} */
 
-.button {
-    /* その他のボタンのスタイル */
+/* .button {
     background-color: white !important;
     border: 1px #000 solid !important;
     width: 200px;
@@ -742,15 +719,6 @@ ul.accordion {
 }
 
 
-/* .zen-old-mincho-regular {
-    
-    font-weight: 400;
-    font-style: normal;
-  } */
-
-
-
-/* スワイパー */
 .swiper-slide img {
     height: auto;
     width: 100%;
@@ -758,9 +726,9 @@ ul.accordion {
 
 .accordion {
     padding-top: 44px;
-}
+} */ */
 
-h2.voice__ttl{
+/* h2.voice__ttl{
     font-size: 32px;
     font-family: "Zen Old Mincho", serif !important;
     padding-top: 34px;
@@ -791,31 +759,81 @@ body {
 
     padding-top: 180px !important;
 
-}
+} */
 
 .kazoku__list {
-    background: blue;
-    position: relative;
+    list-style: none;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+    padding: 0 20px;
 }
 
 
 
 
 li.kazoku__item {
-    background-color: red;
-    padding-left: 155px;
-    height: 100px;
-    margin-top: 20px;
+    padding: 15px 0 50px 110px;
+    /* height: 100px; */
+    /* margin-top: 20px; */
+    position: relative;
 }
 
 li.kazoku__item::before {
-    content: "aa";
+    content: "";
     display: block;
-    background: url(../img/voice_ico-01.png) no-repeat top left /contain;
     width: 83px;
     height: 83px;
     position: absolute;
     left: 0;
     transform: translate(0,-50%);
     top: 50%;
+}
+
+.kazoku__item span {
+    display: block;
+}
+
+li.kazoku__item:nth-of-type(1):before {
+    background: url(../img/voice_ico-01.png) no-repeat left top / contain;
+}
+
+li.kazoku__item:nth-of-type(2):before {
+    background: url(../img/voice_ico-02.png) no-repeat left top / contain;
+}
+
+li.kazoku__item:nth-of-type(3):before {
+    background: url(../img/voice_ico-03.png) no-repeat left top / contain;
+}
+
+.kazoku__item span:nth-of-type(1) {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.kazoku__item span:nth-of-type(2) {
+    font-size: 20px;
+}
+
+.kazoku {
+    background: #F7FCFF;
+}
+
+
+/* 打ち消し */
+＃voice-detail .voice_top{
+margin: 0 !important;
+}
+
+
+h2.voice__ttl {
+    font-size: 36px;
+    color: #01BDBB;
+    font-weight: bold;
+}
+
+p.voice__txt {
+    font-size: 24px;
+    font-family: "Zen Old Mincho", serif !important;
+
 }
