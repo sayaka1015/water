@@ -726,7 +726,7 @@ ul.accordion {
 
 .accordion {
     padding-top: 44px;
-} */ */
+} */ 
 
 /* h2.voice__ttl{
     font-size: 32px;
@@ -746,10 +746,6 @@ img.voice_icn {
 }  
 
 
-body {
-    background: url(../img/desk_back.jpg) !important;
-
-}
 
 .voice_top{
     margin-top: 166px;
@@ -836,4 +832,21 @@ p.voice__txt {
     font-size: 24px;
     font-family: "Zen Old Mincho", serif !important;
 
+}
+
+.grid-x.grid-padding-x.cta.cta_btn.grid-container {
+    background-color: #E7EFF2;
+}
+
+.grid-x.grid-padding-x.cta.cta_btn.grid-container {
+    margin-top: 0px;
+}
+
+h2.sec_ttl {
+    color: #7BBDE7;
+    font-size: 64px;
+}
+
+.customer p{
+    padding-bottom: 97px;
 }
