@@ -899,7 +899,7 @@ ul.accordion {
 
 }
 
-#merit01{
+.merit01{
     color: #7BBDE7;
     position: relative;
 }
@@ -908,7 +908,7 @@ ul.accordion {
     border-left: solid 1px #7BBDE7;
 }
 
-#merit02 .merit-ttl{
+.merit02 .merit-ttl{
     padding-left:1em;
     border-right: solid 1px #7BBDE7;
     border-left: none ;
@@ -963,17 +963,21 @@ ul.accordion {
         font-size: 36px;
     }
 
-    #merit02{
+    .merit02{
         color: #7BBDE7;
-        
-    }
-
-
-    .grid-x.grid-padding-x.merit_kitchen {
         background-color: #C8EDFF;
+
     }
 
-    
+
+    .merit03{
+        background-color: #C8EDFF;
+
+    }
+
+
+
+
 /* .blue_bg:nth-child(2n){
         flex-wrap: wrap-reverse;
 
