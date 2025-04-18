@@ -913,6 +913,7 @@ ul.accordion {
     border-right: solid 1px #7BBDE7;
     border-left: none ;
     text-align: right;
+    margin-top: 170px;
 }
 
 
@@ -954,6 +955,7 @@ ul.accordion {
         transform: translateX(0);
         z-index: -1;
         top: 472px;
+        border-radius: 50px;
     }
 
     .merit_txt{
@@ -963,19 +965,28 @@ ul.accordion {
         font-size: 36px;
     }
 
-    .merit02{
+    section.merit02.blue_bg{
         color: #7BBDE7;
-        background-color: #C8EDFF;
+position: relative; 
+    }
 
+    section.merit02.blue_bg::before {
+        height: 845px;
+        top: 24px;
     }
 
 
-    .merit03{
-        background-color: #C8EDFF;
 
+    section.merit03.blue_bg{
+position: relative;
     }
 
 
+    section.merit03.blue_bg::before {
+        color: #7BBDE7;
+        height: 424px;
+        top: 291px;
+    }
 
 
 /* .blue_bg:nth-child(2n){
