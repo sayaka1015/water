@@ -968,6 +968,12 @@ ul.accordion {
         
     }
 
+
+    .grid-x.grid-padding-x.merit_kitchen {
+        background-color: #C8EDFF;
+    }
+
+    
 /* .blue_bg:nth-child(2n){
         flex-wrap: wrap-reverse;
 

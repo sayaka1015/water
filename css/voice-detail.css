@@ -847,6 +847,6 @@ h2.sec_ttl {
     font-size: 64px;
 }
 
-.customer p{
-    padding-bottom: 97px;
+.grid-x.grid-padding-x.grid-container.kazoku {
+    margin: auto;
 }
