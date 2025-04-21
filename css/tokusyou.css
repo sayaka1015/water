@@ -919,12 +919,9 @@ a.button {
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   
-  .compliance-table .table-row {
-    margin-bottom: 1rem;
-  }
   
   .compliance-table dt.table-heading {
-    background-color: #f2f2f2;
+    background-color: #467A99;
     font-weight: bold;
     padding: 0.5rem;
   }
@@ -933,3 +930,33 @@ a.button {
     padding: 0.5rem;
     margin: 0;
   }
+
+  header#top {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+h2.text-center {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p.text-center.subheader {
+    font-size: 20px;
+}
+
+.grid-container {
+    background-color: #E7EFF2;
+}
+
+.cell.medium-10.large-8 {
+    padding-top: 100px;
+}
+
+dt.cell.small-4.table-heading {
+    color: #fff;
+}
+
+.callout.white-box {
+    padding: 70px 70px 120px 70px;
+}
