@@ -720,7 +720,7 @@ img.chigai_img_02 {
 }
 
 .button-container {
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -793,8 +793,17 @@ body {
 
 }
 
+a.button {
+    width: 143px;
+}
 
+.button-container-insta{
+    text-align: center;
+}
 
+.insta a.button {
+    width: 276px;
+}
 
 
 
