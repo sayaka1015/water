@@ -63,7 +63,7 @@ a {
     background-position: center left;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    height: 53vw;
+    height: 42vw;
     position: relative;
 }
 
@@ -115,16 +115,13 @@ a {
 .mv p {
     font-family: "Zen Old Mincho", serif;
 
-}
+}*/
 
 
 .disk {
-    background: url(../img/desk_back.jpg) !important;
-    padding-top: 193px;
-    padding-bottom: 202px;
-
+    background: none !important;
 }
-
+/*
 .disk .grid-x {
     padding-top: 74px;
 
@@ -850,3 +847,46 @@ h2.sec_ttl {
 .grid-x.grid-padding-x.grid-container.kazoku {
     margin: auto;
 }
+
+.mv{
+    height: 42vw;
+}
+
+.grid-x.grid-padding-x.grid-container.kazoku {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.grid-x.grid-padding-x.grid-container {
+    padding-top: 30px;
+}
+
+body {
+    background: none !important;
+
+}
+
+.button-container {
+    text-align: center;
+    padding: 50px;
+}
+
+a.button {
+    width: 276px;
+}
+
+.grid-x.grid-padding-x.cta.cta_btn.grid-container {
+    align-items: center;
+    padding-top: 160px;
+}
+
+.full-width {  /* 全幅背景 */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+    background: #E7EFF2;
+   }
+   
+
+   
