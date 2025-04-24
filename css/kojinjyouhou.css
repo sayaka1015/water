@@ -863,7 +863,7 @@ h2.sec_ttl {
 
 body {
     background: none !important;
-
+    padding-top: 0;
 }
 
 .button-container {
@@ -957,12 +957,51 @@ dt.cell.small-4.table-heading {
     color: #fff;
 }
 
-.callout.white-box {
-    padding: 70px 70px 120px 70px;
-}
-
 p.txt-ex {
     text-align: center;
     font-size: 20px;
     padding-top: 32px;
 }
+
+    /* body {
+      background-color: #f2f8ff;
+      padding: 2rem 0;
+    }
+    .content-box {
+      background-color: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 5px;
+    }
+    .section-title {
+      background-color: #4a708b;
+      color: white;
+      padding: 0.75rem;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+    .info-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .info-label {
+      background-color: #4a708b;
+      color: white;
+      width: 200px;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .info-value {
+      padding-left: 1.5rem;
+      font-size: 1.75rem;
+    }
+    ul {
+      margin-left: 1.25rem;
+    } */
+
+    body{
+        padding-top: 0;
+    }

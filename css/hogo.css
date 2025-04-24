@@ -965,3 +965,9 @@ p.txt-ex {
     text-align: center;
     padding-top: 32px;
 }
+
+h3.hogo-ttl {
+
+    font-size: 18px;
+    font-weight: bold;
+}
